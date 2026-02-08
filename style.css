@@ -1,0 +1,46 @@
+.font {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+}
+
+#randomCard {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
